@@ -88,7 +88,7 @@ function draw() {
 }
 
 function drawFrame () {
-    background('#7f8c8d');
+    background('#16a085');
 
     entities.forEach(e => {
         e.draw();
@@ -98,7 +98,7 @@ function drawFrame () {
     fill('black')
     textFont('Georgia');
     textSize(20);
-    text(spawning, 0, worldHeight-25, 300, 50);
+    text("Creating " + spawning, 0, worldHeight-25, 300, 50);
 }
 
 class Entity {
